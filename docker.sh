@@ -7,8 +7,8 @@ systemctl start docker
 systemctl enable docker
 usermod -aG docker ec2-user
 
-#growpart /dev/nvme0n1 4 #This is for t3.micro
-sudo growpart /dev/xvda 4 #This is for t2.micro
+sudo growpart /dev/nvme0n1 4 #This is for t3.micro
+#sudo growpart /dev/xvda 4 #This is for t2.micro
 
 sudo lvextend -L +20G /dev/RootVG/rootVol
 sudo lvextend -L +10G /dev/RootVG/varVol
