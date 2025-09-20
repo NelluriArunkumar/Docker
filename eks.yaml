@@ -4,8 +4,8 @@ kind: ClusterConfig
 metadata:
   name: roboshop
   region: us-east-1
-
-mandgedNodeGroups:
+  
+managedNodeGroups:
   - name: roboshop
     instanceTypes: ["m5.large", "c3.large","c4.large","c5.large"]
     desiredCapacity: 3
