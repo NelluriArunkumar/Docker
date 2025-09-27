@@ -32,3 +32,5 @@ kubectl version
 
 sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
 sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+
+curl -sS https://webinstall.dev/k9s | bash #For K9s 
